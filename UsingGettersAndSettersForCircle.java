@@ -1,15 +1,18 @@
 package methodTest;
 
-public class UsingGettersAndSettersForCircle {
+public class UsingGettersAndSettersForCircle extends TwoDShape{
 	private double radius;
 	
-	public UsingGettersAndSettersForCircle() {
-		
+	public UsingGettersAndSettersForCircle(int x, int y ) {
+		super(x, y);
 		radius = 1.0;
 	}
 	
-	public UsingGettersAndSettersForCircle(double newValue) {
+	public UsingGettersAndSettersForCircle(double newValue, int x, int y) {
+		super(x, y);
+		
 		radius = newValue;
+		
 	}
 	
 	public double getRadius() {

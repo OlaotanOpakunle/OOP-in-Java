@@ -4,8 +4,8 @@ public class TestUsingGettersAndSettersForCircle {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		UsingGettersAndSettersForCircle c1 = new UsingGettersAndSettersForCircle();
-		UsingGettersAndSettersForCircle c2 = new UsingGettersAndSettersForCircle(34.887);
+		UsingGettersAndSettersForCircle c1 = new UsingGettersAndSettersForCircle(19, 36);
+		UsingGettersAndSettersForCircle c2 = new UsingGettersAndSettersForCircle(34.887, 5, 5);
 		
 		double c1RadiusValue = c1.getRadius();
 		double c2RadiusValue = c2.getRadius();
